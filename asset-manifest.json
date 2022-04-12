@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-space/static/css/main.7d0d15b6.css",
-    "main.js": "/react-space/static/js/main.58fc5db8.js",
+    "main.js": "/react-space/static/js/main.eed7456e.js",
     "static/js/787.07123028.chunk.js": "/react-space/static/js/787.07123028.chunk.js",
     "static/media/image-victor-glover.png": "/react-space/static/media/image-victor-glover.8a9a5424588b73ec61c2.png",
     "static/media/image-anousheh-ansari.png": "/react-space/static/media/image-anousheh-ansari.2d647128496ddc638acd.png",
@@ -31,11 +31,11 @@
     "static/media/logo.svg": "/react-space/static/media/logo.565f7f2c0534403f11b71994f4311210.svg",
     "static/media/icon-hamburger.svg": "/react-space/static/media/icon-hamburger.5273efa7c50e96ef3e51e7a2b54048ce.svg",
     "main.7d0d15b6.css.map": "/react-space/static/css/main.7d0d15b6.css.map",
-    "main.58fc5db8.js.map": "/react-space/static/js/main.58fc5db8.js.map",
+    "main.eed7456e.js.map": "/react-space/static/js/main.eed7456e.js.map",
     "787.07123028.chunk.js.map": "/react-space/static/js/787.07123028.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7d0d15b6.css",
-    "static/js/main.58fc5db8.js"
+    "static/js/main.eed7456e.js"
   ]
 }
