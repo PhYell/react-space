@@ -1,0 +1,10 @@
+.planet-image {
+    object-fit: contain;
+}
+
+@media screen and (max-width: 1100px) {
+    .planet-image {
+        width: 60%;
+        margin: auto;
+    }
+}

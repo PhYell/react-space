@@ -1,0 +1,33 @@
+.homepage-content {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    /* margin-bottom: 14.44vh; */
+    margin-top: 22vh;
+    justify-content: space-between;
+}
+@media screen and (max-width: 1500px) {
+    .homepage-content {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .homepage-content {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .homepage-content {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 7.81%;
+        width: 80%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .homepage-content {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 23%;
+    }
+}

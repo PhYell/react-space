@@ -1,0 +1,47 @@
+.info-line {
+    width: 100%;
+    border: 1px solid #97979723;
+    margin: 2.8rem 0 2rem;
+}
+.planet-info-numbers {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.planet-info-distance,
+.planet-info-time {
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.75rem;
+    font-family: "Bellefair", serif;
+}
+.planet-info-distance p,
+.planet-info-time p {
+    margin-bottom: 1.5vh;
+    color: var(--description-text-color);
+    font-size: 0.8rem;
+    font-family: "Barlow Condensed", sans-serif;
+    letter-spacing: 0.14rem;
+}
+
+@media screen and (max-width: 1100px) {
+    .planet-info {
+        text-align: center;
+        margin: auto;
+    }
+    .planet-info-numbers {
+        margin: auto;
+        margin-bottom: 2vh;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .planet-info {
+        text-align: center;
+        margin: auto;
+    }
+    .planet-info-numbers {
+        flex-direction: column;
+        gap: 3vh;
+    }
+}

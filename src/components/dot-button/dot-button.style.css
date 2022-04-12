@@ -1,0 +1,14 @@
+.dot-button {
+    height: 15px;
+    width: 15px;
+    background-color: #9797977e;
+    border-radius: 20px;
+    transition: 0.15s ease-in-out;
+}
+.dot-button:hover {
+    background-color: #979797;
+}
+.selected-dot-button {
+    background-color: white;
+    transition: 0.15s ease-in-out;
+}

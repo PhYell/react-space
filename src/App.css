@@ -1,38 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;300;500&family=Bellefair&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    --dark: #0b0d17;
+    --description-text-color: #d0d6f9;
+    ---text-color: #ffffff;
+
+    --phone-size: 375px;
+    --tablet-size: 1000px;
+}
+body {
+    height: 100%;
+    overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+.subheading1 {
+    font-family: "Bellefair", serif;
+    color: var(---text-color);
+    text-transform: uppercase;
+    font-weight: normal;
+    white-space: nowrap;
+}
+h1 {
+    font-size: 9.375rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+h2 {
+    font-size: 6.25rem;
+    margin: 3rem 0;
+}
+h3 {
+    font-size: 3.5rem;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+}
+h4 {
+    font-size: 2rem;
+}
+h5 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 1.75rem;
+    letter-spacing: 0.29rem;
+    color: var(--description-text-color);
+    text-transform: uppercase;
+    letter-spacing: 4.72px;
+}
+.interactive-elements {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 1.75rem;
+    font-weight: 400;
+    letter-spacing: 4.72px;
+    text-transform: uppercase;
+    color: white;
+    white-space: nowrap;
+}
+.interactive-elements span {
+    margin-right: 1rem;
+    opacity: 0.25;
+    font-weight: bold;
+}
+
 .App {
-  text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.subheading1 {
+    font-size: 1.75rem;
+}
+.subheading2 {
+    font-size: 0.875rem;
+    letter-spacing: 0.14rem;
+}
+.nav-text {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 1rem;
+    color: var(---text-color);
+    letter-spacing: 0.16rem;
+}
+.body-text {
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: var(--description-text-color);
+    /* max-width: 40%; */
+    max-width: 500px;
+    font-weight: thin;
+    line-height: 2rem;
+    height: 180px;
+}
+.position {
+    padding-top: 1.5rem;
+    color: white;
+    opacity: 0.5;
+    font-family: "Bellefair", sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.page {
+    width: 60%;
+    margin: 8vh auto;
+}
+.content {
+    margin-top: 8vh;
+    display: flex;
+    justify-content: space-between;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* body {
+    background: url("assets/home/background-home-desktop.jpg") no-repeat center
+        center fixed;
+    background-size: cover;
+} */
+.home-page {
+    background: url("assets/home/background-home-desktop.jpg") no-repeat center
+        center fixed;
+    background-size: cover;
+}
+.destination-page {
+    background: url("assets/destination/background-destination-desktop.jpg")
+        no-repeat center center fixed;
+    background-size: cover;
+}
+.crew-page {
+    background: url("assets/crew/background-crew-desktop.jpg") no-repeat center
+        center fixed;
+    background-size: cover;
+}
+.technology-page {
+    background: url("assets/technology/background-technology-desktop.jpg")
+        no-repeat center center fixed;
+    background-size: cover;
 }
 
-.App-link {
-  color: #61dafb;
+.text-holder {
+    max-width: 500px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ul {
+    list-style: none;
+}
+
+@media screen and (max-width: 1500px) {
+    .page {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 1400px) {
+    .page {
+        width: 80%;
+    }
+    /* .body-text {
+        max-width: 420px;
+    } */
+}
+@media screen and (max-width: 1150px) {
+    .page {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    body {
+        overflow-y: scroll;
+    }
+    .content {
+        flex-direction: column;
+        /* text-align: center; */
+    }
+    .page {
+        margin-bottom: 0;
+    }
+    .body-text {
+        margin: auto;
+        text-align: center;
+        max-width: 80%;
+        /* height: 220px; */
+    }
+    .interactive-elements {
+        font-size: 1.25rem;
+    }
+    h5 {
+        font-size: 1.25rem;
+    }
+    .position {
+        text-align: center;
+    }
+    h3 {
+        text-align: center;
+        white-space: normal;
+    }
+    .text-holder {
+        margin: auto;
+    }
+
+    .home-page {
+        background: url("assets/home/background-home-tablet.jpg") no-repeat
+            center center fixed;
+        background-size: cover;
+    }
+    .destination-page {
+        background: url("assets/destination/background-destination-tablet.jpg")
+            no-repeat center center fixed;
+        background-size: cover;
+    }
+    .crew-page {
+        background: url("assets/crew/background-crew-tablet.jpg") no-repeat
+            center center fixed;
+        background-size: cover;
+    }
+    .technology-page {
+        background: url("assets/technology/background-technology-tablet.jpg")
+            no-repeat center center fixed;
+        background-size: cover;
+    }
+}
+@media screen and (max-width: 500px) {
+    .interactive-elements {
+        text-align: center;
+        margin-top: 12vh;
+        font-size: 1rem;
+    }
+    h1 {
+        font-size: 6.25rem;
+    }
+    h2 {
+        font-size: 3.5rem;
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+    }
+    h3 {
+        font-size: 2.5rem;
+    }
+    .body-text {
+        font-size: 0.95rem;
+        max-width: 100%;
+    }
+
+    .home-page {
+        background: url("assets/home/background-home-mobile.jpg") no-repeat
+            center center fixed;
+        background-size: cover;
+    }
+    .destination-page {
+        background: url("assets/destination/background-destination-mobile.jpg")
+            no-repeat center center fixed;
+        background-size: cover;
+    }
+    .crew-page {
+        background: url("assets/crew/background-crew-mobile.jpg") no-repeat
+            center center fixed;
+        background-size: cover;
+    }
+    .technology-page {
+        background: url("assets/technology/background-technology-mobile.jpg")
+            no-repeat center center fixed;
+        background-size: cover;
+    }
 }

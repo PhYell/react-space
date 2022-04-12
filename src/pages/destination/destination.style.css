@@ -1,0 +1,11 @@
+.planet-select-buttons {
+    display: flex;
+    gap: 2rem;
+    justify-content: left;
+}
+
+@media screen and (max-width: 1000px) {
+    .planet-select-buttons {
+        justify-content: center;
+    }
+}

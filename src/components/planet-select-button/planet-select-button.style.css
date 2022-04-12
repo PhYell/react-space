@@ -1,0 +1,35 @@
+.planet-select-button {
+    border: none;
+    border-bottom: 2px solid transparent;
+    padding: 0.8rem 0;
+    font-size: 1rem;
+    letter-spacing: 0.16rem;
+    padding-left: 0.16rem;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: var(--description-text-color);
+    font-family: "Barlow Condensed", sans-serif;
+    transition: 0.15s ease-in-out;
+}
+.planet-select-button:hover {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.25);
+}
+.selected-planet-select-button {
+    border-bottom: 2px solid white;
+    color: var(---text-color);
+}
+
+@media screen and (max-width: 1100px) {
+    .planet-select-button {
+        margin-top: 5vh;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .planet-select-button {
+        margin-top: 5vh;
+        font-size: 0.9rem;
+    }
+    .planet-select-button {
+    }
+}

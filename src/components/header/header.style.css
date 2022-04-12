@@ -1,0 +1,127 @@
+header {
+    width: 96.11%;
+    margin-top: 4vh;
+    margin-left: auto;
+    display: flex;
+    justify-content: left;
+    position: relative;
+}
+nav {
+    background-color: #97979723;
+    backdrop-filter: blur(6px);
+    /* opacity: 0.5; */
+    margin-left: auto;
+    padding: 1.3rem 8.75% 1.3rem 11.8%;
+    transition: 2s ease-in-out;
+    z-index: 1;
+}
+.logo {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.nav-list {
+    display: flex;
+    gap: 5.5rem;
+}
+.nav-link-text {
+    font-size: 1rem;
+    letter-spacing: 2.7px;
+    white-space: nowrap;
+    text-decoration: none;
+    display: inline;
+    line-height: 48px;
+    color: var(---text-color);
+    text-transform: uppercase;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 300;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    user-select: none;
+    border-bottom: 3px solid rgba(255, 255, 255, 0);
+    transition: 0.15s ease-in-out;
+}
+.nav-link-text:hover {
+    border-bottom: 3px solid #979797;
+}
+.selected {
+    border-bottom: 3px solid white;
+    transition: 0.15s ease-in-out;
+}
+.nav-link-text span {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: bold;
+}
+.line {
+    width: 70%;
+    left: 11.5%;
+    border-bottom: 2px solid #97979723;
+    display: inline-block;
+    vertical-align: middle;
+    z-index: -1;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.hamburger-menu {
+    display: none;
+    position: absolute;
+    right: 28px;
+    top: 28px;
+    transition: 0.25s ease-in-out;
+    z-index: 2;
+    opacity: 0.9;
+}
+.hamburger-menu:hover,
+.hamburger-menu:active {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 1100px) {
+    .line {
+        display: none;
+    }
+    header {
+        margin-top: 0;
+    }
+    .nav-link-text span {
+        display: none;
+    }
+    nav {
+        background-color: #97979723;
+        backdrop-filter: blur(18px);
+        margin-left: auto;
+        padding: 1.3rem 5.33%;
+    }
+    .nav-list {
+        gap: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .hamburger-menu {
+        display: block;
+        position: fixed;
+    }
+    nav {
+        height: 100vh;
+        display: none;
+        position: fixed;
+        right: 0;
+    }
+    .nav-list {
+        padding-top: 80px;
+        padding-right: 30px;
+        gap: 5vh;
+        flex-direction: column;
+    }
+    .logo {
+        top: 16px;
+        left: 16px;
+        transform: translateY(0%);
+    }
+    .nav-link-text span {
+        display: inline;
+    }
+}

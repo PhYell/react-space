@@ -1,0 +1,33 @@
+.technology-info .body-text:first-of-type {
+    height: 2rem;
+}
+.technology-info {
+    /* position: relative; */
+    display: flex;
+    justify-content: space-between;
+}
+.technology-info-text {
+    display: flex;
+    flex-direction: column;
+}
+.technology-image {
+    position: absolute;
+    right: -10px;
+    transform: translateY(-12%);
+}
+
+/* .launch-vehicle {
+    background: url("../../assets/technology/image-launch-vehicle-landscape.jpg")
+        no-repeat center center;
+    background-size: cover;
+    background-image: url(../../assets/technology/image-launch-vehicle-landscape.jpg);
+} */
+
+@media screen and (max-width: 1100px) {
+    .technology-image {
+        display: none;
+    }
+    .technology-info {
+        margin: auto;
+    }
+}

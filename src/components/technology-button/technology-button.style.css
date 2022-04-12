@@ -1,0 +1,23 @@
+.technology-button {
+    height: 80px;
+    width: 80px;
+    font-size: 2rem;
+    font-family: "Bellefair", serif;
+    line-height: 81px;
+    border-radius: 80px;
+    border: none;
+    color: #fff;
+    background-color: #0b0d17;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    /* border: 1px solid #0b0d17; */
+    text-align: center;
+    transition: 0.15s ease-in-out;
+}
+.technology-button:hover {
+    border: 1px solid #fff;
+}
+.selected-technology-button {
+    transition: 0.15s ease-in-out;
+    background-color: #fff;
+    color: #0b0d17;
+}
