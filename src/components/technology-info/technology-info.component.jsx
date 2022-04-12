@@ -28,6 +28,7 @@ const TechnologyInfo = ({ num }) => {
                     {technologyInfoList[num - 1].text}
                 </div>
             </div>
+            <div className="space"></div>
             <img
                 className="technology-image"
                 src={require(`../../assets/technology/image-${

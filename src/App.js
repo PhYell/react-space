@@ -16,19 +16,19 @@ function App() {
 
     useEffect(() => {
         switch (window.location.pathname) {
-            case "/":
+            case "#/":
                 document.body.removeAttribute("class");
                 document.body.classList.add("home-page");
                 break;
-            case "/destination":
+            case "#/destination":
                 document.body.removeAttribute("class");
                 document.body.classList.add("destination-page");
                 break;
-            case "/crew":
+            case "#/crew":
                 document.body.removeAttribute("class");
                 document.body.classList.add("crew-page");
                 break;
-            case "/technology":
+            case "#/technology":
                 document.body.removeAttribute("class");
                 document.body.classList.add("technology-page");
                 break;
