@@ -19,7 +19,7 @@
     color: var(---text-color);
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1000px) {
     .planet-select-button {
         margin-top: 5vh;
     }

@@ -5,6 +5,9 @@
     justify-content: space-between;
     margin-right: 12%;
 }
+.technology-page {
+    margin-right: 0;
+}
 .technology-page-content {
     width: 50%;
     gap: 0;
@@ -15,7 +18,7 @@
     transform: translateX(-5%);
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1000px) {
     .technology-page-image {
         display: block;
     }

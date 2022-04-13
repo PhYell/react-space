@@ -19,7 +19,7 @@
     box-shadow: 0 0 0 87.5px #9797973b;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1000px) {
     .big-button {
         margin: 10.74% auto;
         height: 242px;

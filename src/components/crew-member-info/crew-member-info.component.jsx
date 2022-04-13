@@ -22,8 +22,6 @@ const CrewMemberInfo = ({ num }) => {
         },
     ];
 
-    console.log(num, crewMembers[num]);
-
     return (
         <div className="crew-member-info">
             <div className="position">{crewMembers[num].position}</div>

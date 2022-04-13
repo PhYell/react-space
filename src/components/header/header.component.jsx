@@ -8,8 +8,6 @@ import "./header.style.css";
 const Header = ({ onUserClick }) => {
     const [navOpen, setNavOpen] = useState(false);
 
-    console.log(navOpen);
-
     return (
         <header>
             <Logo className="logo" />

@@ -11,31 +11,40 @@ function App() {
     const [onPage, setOnPage] = useState("home");
 
     const onUserClick = (e) => {
-        console.log(e.target);
+        console.log("e.target", e.target);
+    };
+
+    const getPath = (str) => {
+        let result = "";
+        for (let i = 0; i < str.length; i++) {
+            if (str[i] == "/") result = "";
+            result += str[i];
+        }
+        return result;
     };
 
     useEffect(() => {
-        switch (window.location.pathname) {
-            case "#/":
+        switch (getPath(window.location.href)) {
+            case "/":
+                document.body.removeAttribute("class");
+                document.body.classList.add("home-page");
+            case "/":
                 document.body.removeAttribute("class");
                 document.body.classList.add("home-page");
                 break;
-            case "#/destination":
+            case "/destination":
                 document.body.removeAttribute("class");
                 document.body.classList.add("destination-page");
                 break;
-            case "#/crew":
+            case "/crew":
                 document.body.removeAttribute("class");
                 document.body.classList.add("crew-page");
                 break;
-            case "#/technology":
+            case "/technology":
                 document.body.removeAttribute("class");
                 document.body.classList.add("technology-page");
                 break;
         }
-        console.log(
-            `url(../assets/${onPage}/background-${onPage}-desktop.jpg)`
-        );
     });
 
     return (
