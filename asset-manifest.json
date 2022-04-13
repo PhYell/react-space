@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-space/static/css/main.e857bfc4.css",
-    "main.js": "/react-space/static/js/main.eaea8cf5.js",
+    "main.css": "/react-space/static/css/main.fae0f150.css",
+    "main.js": "/react-space/static/js/main.40fdf58f.js",
     "static/js/787.07123028.chunk.js": "/react-space/static/js/787.07123028.chunk.js",
     "static/media/image-victor-glover.png": "/react-space/static/media/image-victor-glover.8a9a5424588b73ec61c2.png",
     "static/media/image-anousheh-ansari.png": "/react-space/static/media/image-anousheh-ansari.2d647128496ddc638acd.png",
@@ -30,12 +30,12 @@
     "index.html": "/react-space/index.html",
     "static/media/logo.svg": "/react-space/static/media/logo.565f7f2c0534403f11b71994f4311210.svg",
     "static/media/icon-hamburger.svg": "/react-space/static/media/icon-hamburger.5273efa7c50e96ef3e51e7a2b54048ce.svg",
-    "main.e857bfc4.css.map": "/react-space/static/css/main.e857bfc4.css.map",
-    "main.eaea8cf5.js.map": "/react-space/static/js/main.eaea8cf5.js.map",
+    "main.fae0f150.css.map": "/react-space/static/css/main.fae0f150.css.map",
+    "main.40fdf58f.js.map": "/react-space/static/js/main.40fdf58f.js.map",
     "787.07123028.chunk.js.map": "/react-space/static/js/787.07123028.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e857bfc4.css",
-    "static/js/main.eaea8cf5.js"
+    "static/css/main.fae0f150.css",
+    "static/js/main.40fdf58f.js"
   ]
 }
