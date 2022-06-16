@@ -1,7 +1,7 @@
 <h1 align="center">React Space</h1>
 
 <div align="center">
-   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
+   Solution for a challenge from  <a href="http://frontendmentor.io" target="_blank">frontendmentor.io</a>.
 </div>
 
 <div align="center">
