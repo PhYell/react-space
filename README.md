@@ -14,7 +14,7 @@
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U">
+    <a href="https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3">
       Challenge
     </a>
   </h3>
